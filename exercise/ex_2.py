@@ -35,3 +35,14 @@ pi_zmienna = math.pi
 obwod_kolo = 2 * pi_zmienna
 pole_kolo = 2 * pi_zmienna(r**2)
 print("Obwod kola wynosi" + str(obwod_kolo)+ "a pole" + str(pole_kolo) + ".")
+
+#trojkat
+
+a = 12
+b = 10
+c = 10
+h = 8
+
+obwod_trojkata = a + b + c
+pole_trojkata = (a * h) / 2
+print("Obwod trojkata wynosi" + str(obwod_trojkata)+ "a pole" + str(pole_trojkata) + ".")
