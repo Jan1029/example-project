@@ -17,7 +17,7 @@ studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
 for i in studenci:
     print("Hello ", i)
 
-#zadanie 1.5
+# zadanie 1.5
 liczba = 3
 potega = 4
 wynik = liczba ** potega
@@ -30,7 +30,6 @@ print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacy
 
 # zadanie 1.7
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
-
 studenci.sort()
 print("Alfabetyczna lista studentow wynosi: ")
 for student in studenci:
@@ -64,6 +63,7 @@ def czy_funkcja_liniowa(wykres):
         return True
     else:
         return False
+
 wykres_1_funkcja_liniowa = czy_funkcja_liniowa(wykres_1)
 wykres_2_funkcja_liniowa = czy_funkcja_liniowa(wykres_2)
 wykres_3_funkcja_liniowa = czy_funkcja_liniowa(wykres_3)
