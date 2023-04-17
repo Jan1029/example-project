@@ -16,3 +16,9 @@ print("Liczba studentow wynosi:", liczba_studentow)
 studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
 for i in studenci:
     print("Hello ", i)
+
+#zadanie 1.5
+liczba = 3
+potega = 4
+wynik = liczba ** potega
+print("Wynik wynosi:", wynik)
