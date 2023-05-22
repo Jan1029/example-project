@@ -1,4 +1,4 @@
-# funckja sum_list l
+# funkcja sum_list l
 # is l empty? y->0 n->l[0]+reszta reszta=sum_list(reszta)
 
 def sum_list(list):
@@ -12,13 +12,22 @@ print (sum_list([]))
 print (sum_list([1, 2, 4, 7, 9]))
 
 # funkcja n!
-# is n<2? y->1 n->n*silnia(n-1)
+# is n>0?
+# yes->none
+# no-> n<2?
+# yes->1
+# no->n*silnia(n-1))
 
 def silnia(n):
-    if n < 2:
+    if n < 0:
+        return None
+    elif n < 2:
         return 1
     else:
         return n*silnia(n-1)
 print (silnia (3))
 print (silnia (1))
+print (silnia (-1))
+
+
 
