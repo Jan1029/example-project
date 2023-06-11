@@ -10,9 +10,10 @@ def sum_list(list):
 print (sum_list([1, 2, 4]))
 print (sum_list([]))
 print (sum_list([1, 2, 4, 7, 9]))
+print("-----------------------------")
 
 # funkcja n!
-# is n>0?
+# is n<0?
 # yes->none
 # no-> n<2?
 # yes->1
@@ -28,6 +29,8 @@ def silnia(n):
 print (silnia (3))
 print (silnia (1))
 print (silnia (-1))
+print("---------------------")
+
 
 #fibonacci
 # is n<0?
@@ -51,7 +54,7 @@ print (fibonacci(1))
 print (fibonacci(5))
 print (fibonacci(10))
 print (fibonacci(-1))
-
+print("-------------------------")
 #znajdz_najwiekszy_element
 #is l empty?
 #y-> None
