@@ -51,3 +51,21 @@ print (fibonacci(1))
 print (fibonacci(5))
 print (fibonacci(10))
 print (fibonacci(-1))
+
+#znajdz_najwiekszy_element
+#is l empty?
+#y-> None
+#n-> is l=1?
+#y->print l[0]
+#n-> m>l[0]
+#y-> print m
+#n-> print l[0]
+def find_max(list):
+    if len(list) == 1:
+        return list[0]
+    else:
+        m = find_max(list[1:])
+        return m if m > list[0] else list[0]
+print(find_max([1,5,6,7]))
+print(find_max([9,8,5,0]))
+print(find_max([18,10,20,9]))
